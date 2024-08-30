@@ -28,7 +28,7 @@ public class Robot extends TimedRobot {
   private final SendableChooser<String> m_chooser = new SendableChooser<>();
   private CANSparkMax m1 = new CANSparkMax(50, MotorType.kBrushless);
   private CANSparkMax m2 = new CANSparkMax(51, MotorType.kBrushless);
-  private CANSparkMax m3 = new CANSparkMax(20, MotorType.kBrushless);
+  // private CANSparkMax m3 = new CANSparkMax(20, MotorType.kBrushless);
 
 
   /**
@@ -103,7 +103,7 @@ public class Robot extends TimedRobot {
   public void teleopInit() {
     m1.set(0.5);
     m2.set(0.5);
-    m3.set(0.5);
+    // m3.set(0.5);
   }
 
   /** This function is called periodically during operator control. */
@@ -116,7 +116,7 @@ public class Robot extends TimedRobot {
   public void disabledInit() {
     m1.set(0);
     m2.set(0);
-    m3.set(0);
+    // m3.set(0);
   }
 
   /** This function is called periodically when disabled. */
