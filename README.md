@@ -16,3 +16,6 @@ It runs 3 neo motors connected to 3 CANSparkMaxes when enables in teleoperated m
 - Type in `Deploy Robot Code` and hit enter
 - Open `FRC Driver Station`
 - Control the robot by enabling and disabling it in the driver station!
+
+License:
+Here is the [license](LICENSE).
