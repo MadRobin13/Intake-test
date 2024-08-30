@@ -101,9 +101,9 @@ public class Robot extends TimedRobot {
   /** This function is called once when teleop is enabled. */
   @Override
   public void teleopInit() {
-    m1.set(0.2);
-    m2.set(0.2);
-    m3.set(0.2);
+    m1.set(1);
+    m2.set(1);
+    // m3.set(1);
   }
 
   /** This function is called periodically during operator control. */
@@ -116,7 +116,7 @@ public class Robot extends TimedRobot {
   public void disabledInit() {
     m1.set(0);
     m2.set(0);
-    m3.set(0);
+    // m3.set(0);
   }
 
   /** This function is called periodically when disabled. */
